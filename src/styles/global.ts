@@ -44,6 +44,7 @@ button{
     h1 {
       color: var(--title);
       font-size: 3rem;
+      font-family: "Poppins",sans-serif;
     }
   }
 `;

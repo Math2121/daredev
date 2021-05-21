@@ -1,6 +1,7 @@
 import Sobre from "../../assets/sapiens.png";
 import { Cards } from "../Cards";
 import { Faq } from "../Faq";
+import { Form } from "../Form";
 import { Section } from "./style";
 export function Intro() {
   return (
@@ -61,6 +62,15 @@ export function Intro() {
         <Faq />
         <Faq />
         <Faq />
+
+        <div className="row mt-5">
+          <div className="col-md-12 intro-values mb-5">
+            <span className="line"></span>
+            <h1>Entre em Contato</h1>
+          </div>
+        </div>
+
+        <Form/>
       </div>
     </Section>
   );
